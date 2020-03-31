@@ -1,29 +1,36 @@
 # Neural Network SARS-CoV-2
 
-## Background
+Rede Neural utilizada para prever estado de casos suspeitos de Covid-19 com base em dados de exames do Hospital Israelita Albert Einstein.
 
-The World Health Organization (WHO) characterized the COVID-19, caused by the SARS-CoV-2, as a pandemic on March 11, while the exponential increase in the number of cases was risking to overwhelm health systems around the world with a demand for ICU beds far above the existing capacity, with regions of Italy being prominent examples.
+## O problema do SARS-CoV-2
+
+A Organização Mundial da Saúde (OMS) caracterizou a  doença COVID-19, causada pelo virus SARS-CoV-2, como pandêmica no dia 11 de Março de 2020. O crescimento exponencial dos números de infectados foram uma grande preocupação graças ao fato de que a enorme quantidade de pessoas precisando de cuidados médicos e aparelhos específicos causou uma sobrecarga dos sistemas de saúde por todo mundo.
+
+No Brasil o primeiro caso foi registrado no dia 26 de Fevereiro e até o dia 27 de Março, apenas no estado de São Paulo, os hospitais registraram 1.223 casos confirmados com 68 mortes. Dentre eles Hospital Israelita Albert Einstein registrou 477 casos cnonfirmados associados à 30 mortes.
 
 Brazil recorded the first case of SARS-CoV-2 on February 26, and the virus transmission evolved from imported cases only, to local and finally community transmission very rapidly, with the federal government declaring nationwide community transmission on March 20.
 
-Until March 27, the state of São Paulo had recorded 1,223 confirmed cases of COVID-19, with 68 related deaths, while the county of São Paulo, with a population of approximately 12 million people and where Hospital Israelita Albert Einstein is located, had 477 confirmed cases and 30 associated death, as of March 23. Both the state and the county of São Paulo decided to establish quarantine and social distancing measures, that will be enforced at least until early April, in an effort to slow the virus spread.
+O grande problema da COVID-19 é o rápido contágio e agravamento do quadro clínico, fazendo com que seja difícil agir com rapidez. Atualmente devido ao inicio do sobrecarregamento do sistema de saúde, diagnosticar casos suspeitos se tornou um desafio, uma vez que não existem teste suficientes disponíveis para aplicar a todos suspeitos tornando impossível diagnosticar todos os casos.
 
-One of the motivations for this challenge is the fact that in the context of an overwhelmed health system with the possible limitation to perform tests for the detection of SARS-CoV-2, testing every case would be impractical and tests results could be delayed even if only a target subpopulation would be tested.
+## Conjunto de Dados
 
-## Dataset
+O conjunto de dados contém o relatório médico anônimo de todos os pacientes submetidos ao teste para o SARS-CoV-2 que passaram pelo Hospital Israelita Albert Einstein. Além do resultado do teste para o vírus o relatório também contém outros dados sobre testes laboratoriais em que o paciente foi submetido, além de informar se o mesmo necessitou de internação e qual ala foi enviado (Ala Geral, Tratamento Semi-Intensivo ou Tratamento Intensivo).
 
-This dataset contains anonymized data from patients seen at the Hospital Israelita Albert Einstein, at São Paulo, Brazil, and who had samples collected to perform the SARS-CoV-2 RT-PCR and additional laboratory tests during a visit to the hospital.
+## Desafios
 
-All data were anonymized following the best international practices and recommendations. All clinical data were standardized to have a mean of zero and a unit standard deviation.
+### Desafio 1
 
-## Task Details
+• Baseado nos relatórios laboratoriais, é necessário predizer se o paciente contém ou não o vírus SARS-CoV-2.
 
-### TASK 1
+### Desafio 2
 
-• Predict confirmed COVID-19 cases among suspected cases.
-Based on the results of laboratory tests commonly collected for a suspected COVID-19 case during a visit to the emergency room, would it be possible to predict the test result for SARS-Cov-2 (positive/negative)?
+• Predizer à partir dos casos de possível presença do vírus se o paciente necessitará de tratamento especializado e em qual ala precisará ser internado se for o caso.
 
-### TASK 2
+## Tratamento dos Dados
 
-• Predict admission to general ward, semi-intensive unit or intensive care unit among confirmed COVID-19 cases.
-Based on the results of laboratory tests commonly collected among confirmed COVID-19 cases during a visit to the emergency room, would it be possible to predict which patients will need to be admitted to a general ward, semi-intensive unit or intensive care unit?
+Nos relatórios disponibilizados pelo hospital existem tanto dados numéricos, como rótulos escritos e dados nulos, porém para que a rede neural possa trata-los todos os dados devem estar na forma numérica. Para isso foi adotada a seguinte convenção:
+
+• Dados nulos foram adotados como o valor -1,
+• Rótulos 'positive' foram adotados como 1,
+• Rótulos 'negative' foram adotados como 0,
+• Rótulos ''
