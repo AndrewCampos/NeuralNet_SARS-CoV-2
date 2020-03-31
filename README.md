@@ -30,7 +30,7 @@ O conjunto de dados contém o relatório médico anônimo de todos os pacientes 
 
 Nos relatórios disponibilizados pelo hospital existem tanto dados numéricos, como rótulos escritos e dados nulos, porém para que a rede neural possa trata-los todos os dados devem estar na forma numérica. Para isso foi adotada a seguinte convenção:
 
-• Dados nulos foram adotados como o valor -1,
-• Rótulos 'positive' foram adotados como 1,
-• Rótulos 'negative' foram adotados como 0,
+• Dados nulos foram adotados como o valor -1,  
+• Rótulos 'positive' foram adotados como 1,  
+• Rótulos 'negative' foram adotados como 0,  
 • Rótulos ''
