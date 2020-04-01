@@ -34,7 +34,7 @@ Nos relatórios disponibilizados pelo hospital existem tanto dados numéricos, c
 • Rótulos 'positive' foram adotados como 1,  
 • Rótulos 'negative' foram adotados como 0,  
 • Rótulos 'detectet' foram adotados como 1,
-• Rótulos 'not_detected' foram adotados como 0 e  
+• Rótulos 'not_detected' foram adotados como 0,  
 • Rótulos 'not_done' foram adotados como -1.  
 
 As os dados presentes nas counas à partir de "Rods #" foram descartados, uma vez que não tinham densidade suficiente para treinar nem testar a rede.
