@@ -1,0 +1,111 @@
+  0: Patient ID
+  1: Patient age quantile
+  2: SARS-Cov-2 exam result
+  3: Patient addmited to regular ward (1=yes. 0=no)
+  4: Patient addmited to semi-intensive unit (1=yes. 0=no)
+  5: Patient addmited to intensive care unit (1=yes. 0=no)
+  6: Hematocrit
+  7: Hemoglobin
+  8: Platelets
+  9: Mean platelet volume 
+ 10: Red blood Cells
+ 11: Lymphocytes
+ 12: Mean corpuscular hemoglobin concentration (MCHC)
+ 13: Leukocytes
+ 14: Basophils
+ 15: Mean corpuscular hemoglobin (MCH)
+ 16: Eosinophils
+ 17: Mean corpuscular volume (MCV)
+ 18: Monocytes
+ 19: Red blood cell distribution width (RDW)
+ 20: Serum Glucose
+ 21: Respiratory Syncytial Virus
+ 22: Influenza A
+ 23: Influenza B
+ 24: Parainfluenza 1
+ 25: CoronavirusNL63
+ 26: Rhinovirus/Enterovirus
+ 27: Mycoplasma pneumoniae
+ 28: Coronavirus HKU1
+ 29: Parainfluenza 3
+ 30: Chlamydophila pneumoniae
+ 31: Adenovirus
+ 32: Parainfluenza 4
+ 33: Coronavirus229E
+ 34: CoronavirusOC43
+ 35: Inf A H1N1 2009
+ 36: Bordetella pertussis
+ 37: Metapneumovirus
+ 38: Parainfluenza 2
+ 39: Neutrophils
+ 40: Urea
+ 41: Proteina C reativa mg/dL
+ 42: Creatinine
+ 43: Potassium
+ 44: Sodium
+ 45: Influenza B. rapid test
+ 46: Influenza A. rapid test
+ 47: Alanine transaminase
+ 48: Aspartate transaminase
+ 49: Gamma-glutamyltransferase 
+ 50: Total Bilirubin
+ 51: Direct Bilirubin
+ 52: Indirect Bilirubin
+ 53: Alkaline phosphatase
+ 54: Ionized calcium 
+ 55: Strepto A
+ 56: Magnesium
+ 57: pCO2 (venous blood gas analysis)
+ 58: Hb saturation (venous blood gas analysis)
+ 59: Base excess (venous blood gas analysis)
+ 60: pO2 (venous blood gas analysis)
+ 61: Fio2 (venous blood gas analysis)
+ 62: Total CO2 (venous blood gas analysis)
+ 63: pH (venous blood gas analysis)
+ 64: HCO3 (venous blood gas analysis)
+ 65: Rods #
+ 66: Segmented
+ 67: Promyelocytes
+ 68: Metamyelocytes
+ 69: Myelocytes
+ 70: Myeloblasts
+ 71: Urine - Esterase
+ 72: Urine - Aspect
+ 73: Urine - pH
+ 74: Urine - Hemoglobin
+ 75: Urine - Bile pigments
+ 76: Urine - Ketone Bodies
+ 77: Urine - Nitrite
+ 78: Urine - Density
+ 79: Urine - Urobilinogen
+ 80: Urine - Protein
+ 81: Urine - Sugar
+ 82: Urine - Leukocytes
+ 83: Urine - Crystals
+ 84: Urine - Red blood cells
+ 85: Urine - Hyaline cylinders
+ 86: Urine - Granular cylinders
+ 87: Urine - Yeasts
+ 88: Urine - Color
+ 89: Partial thromboplastin time (PTT) 
+ 90: Relationship (Patient/Normal)
+ 91: International normalized ratio (INR)
+ 92: Lactic Dehydrogenase
+ 93: Prothrombin time (PT). Activity
+ 94: Vitamin B12
+ 95: Creatine phosphokinase (CPK) 
+ 96: Ferritin
+ 97: Arterial Lactic Acid
+ 98: Lipase dosage
+ 99: D-Dimer
+100: Albumin
+101: Hb saturation (arterial blood gases)
+102: pCO2 (arterial blood gas analysis)
+103: Base excess (arterial blood gas analysis)
+104: pH (arterial blood gas analysis)
+105: Total CO2 (arterial blood gas analysis)
+106: HCO3 (arterial blood gas analysis)
+107: pO2 (arterial blood gas analysis)
+108: Arteiral Fio2
+109: Phosphor
+110: ctO2 (arterial blood gas analysis)
