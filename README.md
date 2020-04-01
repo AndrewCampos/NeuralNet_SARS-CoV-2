@@ -33,7 +33,7 @@ Nos relatórios disponibilizados pelo hospital existem tanto dados numéricos, c
 • Dados nulos foram adotados como o valor -1,  
 • Rótulos 'positive' foram adotados como 1,  
 • Rótulos 'negative' foram adotados como 0,  
-• Rótulos 'detectet' foram adotados como 1,
+• Rótulos 'detectet' foram adotados como 1,  
 • Rótulos 'not_detected' foram adotados como 0,  
 • Rótulos 'not_done' foram adotados como -1.  
 
