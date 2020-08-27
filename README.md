@@ -18,11 +18,7 @@ O conjunto de dados contém o relatório médico anônimo de todos os pacientes 
 
 ## Objetivos
 
-### Objetivo 1
-
 • Baseado nos relatórios laboratoriais, é necessário predizer se o paciente contém ou não o vírus SARS-CoV-2.
-
-### Objetivo 2
 
 • Predizer à partir dos casos de possível presença do vírus se o paciente necessitará de tratamento especializado e em qual ala precisará ser internado se for o caso.
 
