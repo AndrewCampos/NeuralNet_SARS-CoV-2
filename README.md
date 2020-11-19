@@ -8,9 +8,7 @@ A Organização Mundial da Saúde (OMS) caracterizou a  doença COVID-19, causad
 
 No Brasil o primeiro caso foi registrado no dia 26 de Fevereiro e até o dia 27 de Março, apenas no estado de São Paulo, os hospitais registraram 1.223 casos confirmados com 68 mortes. Dentre eles Hospital Israelita Albert Einstein registrou 477 casos cnonfirmados associados à 30 mortes.
 
-Brazil recorded the first case of SARS-CoV-2 on February 26, and the virus transmission evolved from imported cases only, to local and finally community transmission very rapidly, with the federal government declaring nationwide community transmission on March 20.
-
-O grande problema da COVID-19 é o rápido contágio e agravamento do quadro clínico, fazendo com que seja difícil agir com rapidez. Atualmente devido ao inicio do sobrecarregamento do sistema de saúde, diagnosticar casos suspeitos se tornou um desafio, uma vez que não existem teste suficientes disponíveis para aplicar a todos suspeitos tornando impossível diagnosticar todos os casos.
+O grande problema da COVID-19 é o rápido contágio e agravamento do quadro clínico, fazendo com que seja difícil agir com rapidez. Atualmente devido ao início do sobrecarregamento do sistema de saúde, diagnosticar casos suspeitos se tornou um desafio, uma vez que não existem teste suficientes disponíveis para aplicar a todos suspeitos tornando impossível diagnosticar todos os casos.
 
 ## Conjunto de Dados
 
